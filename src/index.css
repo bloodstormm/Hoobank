@@ -15,9 +15,7 @@
 }
 
 * {
-  scroll-behavior: smooth;
-  font-family: Poppins, sans-serif;
-  @apply selection:bg-secondary/30 selection:text-secondary;
+  @apply selection:bg-secondary/30 selection:text-secondary font-Poppins scroll-smooth;
 }
 
 .text-gradient {

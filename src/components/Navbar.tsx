@@ -18,7 +18,7 @@ export const Navbar = () => {
             key={navItem.id}
             className={` cursor-pointer text-white mr-10 last-of-type:mr-0`}
           >
-            <a href={`#${navItem.id}`}>{navItem.title}</a>
+            <a href="#">{navItem.title}</a>
           </li>
         ))}
       </ul>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                 key={navItem.id}
                 className={` cursor-pointer flex justify-center text-white mb-10 last-of-type:mb-0`}
               >
-                <a href={`#${navItem.id}`}>{navItem.title}</a>
+                <a href="#">{navItem.title}</a>
               </li>
             ))}
           </ul>
